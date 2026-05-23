@@ -63,8 +63,8 @@ The project uses a hybrid workflow where:
 # 📊 Dataset Used
 
 ## TWOSIDES Dataset
-Source:
-FDA Adverse Event Reporting System (FAERS)
+Source: 
+[nSIDES - Drug side effect and interaction resources](https://nsides.io/#offsides-and-twosides) 
 
 Dataset contains:
 - Drug 1
