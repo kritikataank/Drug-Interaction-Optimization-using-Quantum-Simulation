@@ -128,6 +128,8 @@ QuantumX Hackathon/
 │
 └── README.md
 ```
+<img width="1856" height="807" alt="image" src="https://github.com/user-attachments/assets/dff4206c-8bf8-451c-9e67-43adb74b5dc1" />
+<img width="1871" height="697" alt="image" src="https://github.com/user-attachments/assets/3dc1e4ac-c9c6-41b4-a310-591ff23d16c6" />
 
 # 🔮 Future Scope
 
