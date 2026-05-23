@@ -91,3 +91,50 @@ Quantum Circuit Simulation
 Risk Prediction
         ↓
 Interactive Streamlit Dashboard
+```
+
+# 📁 Project Structure
+
+```text
+QuantumX Hackathon/
+│
+├── app/
+│   └── app.py                     # Streamlit web application
+│
+├── data/ (Downloaded from the website not uploaded in github)
+│   └── raw/
+│       ├── OFFSIDES.csv           # Single-drug side effects dataset
+│       └── TWOSIDES.csv           # Drug-drug interaction dataset
+│
+├── models/
+│   ├── rf_model.pkl               # Classical ML model
+│   ├── quantum_model.pkl          # Quantum-enhanced model
+│   ├── scaler.pkl                 # Feature scaler
+│   ├── label_encoder.pkl          # Risk label encoder
+│   ├── drug1_encoder.pkl          # Drug 1 encoder
+│   ├── drug2_encoder.pkl          # Drug 2 encoder
+│   ├── effect_encoder.pkl         # Side effect encoder
+│   └── demo_data.pkl              # Sample processed dataset
+│
+├── notebooks/
+│   └── 01_explore_data.ipynb                  # Exploratory Data Analysis
+|   └── 02_baseline_ml.ipynb
+|   └── 03_quantum_model.ipynb 
+│
+├── src/
+│   └── train_models.py            # Training pipeline
+│
+├── requirements.txt               # Python dependencies
+│
+└── README.md
+```
+
+# 🔮 Future Scope
+
+- Support analysis of 3+ drug combinations and complex prescription chains.
+- Recommend safer alternative medicines based on patient allergies.
+- Enable personalized medicine using patient history and clinical data.
+- Integrate with real quantum hardware like IBM Quantum and Amazon Braket.
+- Improve predictions using Quantum Neural Networks (QNNs).
+- Connect with hospital systems for real-time prescription validation.
+- Expand into scalable AI-driven healthcare decision support systems.
